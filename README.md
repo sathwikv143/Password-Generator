@@ -15,10 +15,10 @@ Random password generator, saving in file, encryption/decryption of file using p
   python3 pass.py -c <encrypt/decrypt>
 
 optional arguments:
-  -h, --help              show this help message and exit
-  -m MODE, --mode MODE    Modes: strong|weak|medium
-  -u USERNAME, --username USERNAME Specify Username
-  -s SITE, --site SITE    Specify Web Site
-  -l LENGTH, --length     LENGTH Specify Length of Password
-  -c CRYPT, --crypt CRYPT Encrypt/Dycrypt file: encrypt|decrypt
+  -h, --help                        Show this help message and exit
+  -m MODE, --mode MODE              Modes: strong|weak|medium
+  -u USERNAME, --username USERNAME  Specify Username
+  -s SITE, --site SITE              Specify Web Site
+  -l LENGTH, --length LENGTH        Specify Length of Password
+  -c CRYPT, --crypt CRYPT           Encrypt/Dycrypt file: encrypt|decrypt
 ```
