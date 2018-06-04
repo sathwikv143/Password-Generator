@@ -5,12 +5,14 @@ import argparse, time, os, getpass
 import string as st
 import random as rd
 
+# To check given file already exists
 def file_exists(file):
 	if os.path.exists(file):
 		return True		
 	else:
 		return False
 
+# Function to Encrypt or Decrypt
 def AesEncDec(e):
 	ops = ["encrypt","decrypt"]
 	OrigFile = "data.txt"
@@ -44,6 +46,7 @@ def AesEncDec(e):
 		exit("\nUse --help/-h option to view the usage of script\n")
 
 
+# Function to generate random password
 def generatePwd(u,l,c,s):
 	timecreated = time.asctime( time.localtime(time.time()) )
 	f = open("data.txt","a+")
@@ -83,7 +86,6 @@ def generatePwd(u,l,c,s):
 	f.close()
 
 def main():
-	# print(crypt,username,length,site)
 	if crypt != None:
 		AesEncDec(crypt)
 	if mode in modes:
