@@ -54,8 +54,8 @@ def AesEncDec(e):
 def generatePwd(u,l,c,s):
 	# `u` is username by the user
 	# `l` is length of the password
-	# `c` is charecters used in random password generation
-	# `s` is the iste or website by the user
+	# `c` is characters used in random password generation
+	# `s` is the site or website by the user
 	timecreated = time.asctime( time.localtime(time.time()) ) # local time of creation of password
 	f = open("data.txt","a+") # file to store the generated password
 	pwd = ''
