@@ -1,8 +1,9 @@
 # Password-Generator
-Random password generator, saving in file, encryption/decryption of file using python
+Random password generator, saving in file, encryption/decryption of file using python3
 ## Intention
   Instead of storing passwords in browser and else where
-  this tool is developed to store all passwords on our own machine.
+  this tool is developed to store all passwords on our own machine 
+  with encryption and decryption option.
 ## Requirements
   python3 module pyAesCrypt
   
