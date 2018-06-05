@@ -9,16 +9,21 @@ Random password generator, saving in file, encryption/decryption of file using p
   ``` pip3 install pyAesCrypt ```
 ## Usage
 ```
-  python3 pass.py -m <mode> -u <username> -s <website>
-  python3 pass.py -m <mode> -u <username> -s <website> -l <length>	
-  python3 pass.py -m <mode> -l <length>	
-  python3 pass.py -c <encrypt/decrypt>
+python pass.py -m <mode> -u <username> -s <website>	
+python pass.py -m <mode> -u <username> -s <website> -l <length>	
+python pass.py -m <mode> -l <length>	
+python pass.py -c <encrypt/decrypt>
+
+Modes used : `strong`, `weak`, `medium`
+Options to crypt file are : `encrypt`, `decrypt`
+
+Random Password Generator
 
 optional arguments:
   -h, --help                        Show this help message and exit
-  -m MODE, --mode MODE              Modes: strong|weak|medium
+  -m MODE, --mode MODE              Modes to generate password
   -u USERNAME, --username USERNAME  Specify Username
   -s SITE, --site SITE              Specify Web Site
   -l LENGTH, --length LENGTH        Specify Length of Password
-  -c CRYPT, --crypt CRYPT           Encrypt/Dycrypt file: encrypt|decrypt
+  -c CRYPT, --crypt CRYPT           Encrypt/Dycrypt file
 ```
