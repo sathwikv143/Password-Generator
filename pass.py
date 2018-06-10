@@ -130,4 +130,8 @@ if __name__ == '__main__':
 	site = args.site
 	crypt = args.crypt
 	mode = args.mode
-	main()
+	try:
+		main()
+	except KeyboardInterrupt:
+		print("\nKeyboard Interrupted\n")
+		exit()
